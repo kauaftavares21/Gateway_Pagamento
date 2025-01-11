@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gateway de Pagamento</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <form action="">
+        <div class="row">
+          <div class="column">
+            <h3 class="title">Endereço de Cobrança</h3>
+            <div class="input-box">
+              <span>Nome Completo :</span>
+              <input type="text" placeholder="Nome" />
+            </div>
+            <div class="input-box">
+              <span>Email :</span>
+              <input type="email" placeholder="example@example.com" />
+            </div>
+            <div class="input-box">
+              <span>Endereço :</span>
+              <input type="text" placeholder="Bairro - Casa - Rua" />
+            </div>
+            <div class="input-box">
+              <span>Cidade :</span>
+              <input type="text" placeholder="Brasilia" />
+            </div>
+
+            <div class="flex">
+              <div class="input-box">
+                <span>Pais :</span>
+                <input type="text" placeholder="Brasil" />
+              </div>
+              <div class="input-box">
+                <span>Cep :</span>
+                <input type="number" placeholder="00000-00" />
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <h3 class="title">Pagamento</h3>
+            <div class="input-box">
+              <span>Cards Accepted :</span>
+              <img src="imgcards.png" alt="" />
+            </div>
+            <div class="input-box">
+              <span>Nome no cartão :</span>
+              <input type="text" placeholder="Mr. Joao Silva" />
+            </div>
+            <div class="input-box">
+              <span>Número do cartão :</span>
+              <input type="number" placeholder="0000 0000 0000 0000" />
+            </div>
+            <div class="input-box">
+              <span>Mês de validade:</span>
+              <input type="text" placeholder="Janeiro" />
+            </div>
+
+            <div class="flex">
+              <div class="input-box">
+                <span>Ano de validade :</span>
+                <input type="number" placeholder="0000" />
+              </div>
+              <div class="input-box">
+                <span>CVV :</span>
+                <input type="number" placeholder="000" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
